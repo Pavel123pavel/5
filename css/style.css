@@ -223,27 +223,25 @@ body {
   color: #333;
 }
 
+.modules_logo:last-child {
+  margin: 0;
+}
+
 .modules_link {
-  padding: 20px 0 0 55px;
+  display: inline-block;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3f2aff;
+  padding-left: 52px;
   background-image: url("../img/Arrow 1.png");
   background-position: left center;
   background-repeat: no-repeat;
-  color: #3f2aff;
-
-}
-
-.modules_icon {
-  /* margin-bottom: 25px; */
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23px;
-  color: #3f2aff;
 }
 
 .modules_title {
   margin: 0;
   margin-bottom: 50px;
-  padding-top: 25px;
   font-weight: 700;
   font-size: 60px;
   line-height: 69px;
